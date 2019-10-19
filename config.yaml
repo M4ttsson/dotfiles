@@ -1,0 +1,16 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+profiles:
+  laptop:
+    dotfiles:
+    - f_vimrc
+    - f_bashrc
