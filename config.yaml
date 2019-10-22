@@ -9,8 +9,17 @@ dotfiles:
   f_bashrc:
     src: bashrc
     dst: ~/.bashrc
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
 profiles:
   laptop:
     dotfiles:
+    - f_tmux.conf
+    - f_vimrc
+    - f_bashrc
+  work:
+    dotfiles:
+    - f_tmux.conf
     - f_vimrc
     - f_bashrc
