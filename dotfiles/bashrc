@@ -1,6 +1,7 @@
 
 {%@@ if profile == "work" @@%}
 eval `ssh-agent -s`
+export PATH=$PATH:/C/HashiCorp/Vagrant/bin
 {%@@ endif @@%}
 
 alias gst='git status '
