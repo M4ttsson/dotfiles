@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 " other plugins
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'morhetz/gruvbox'
 
 
@@ -30,17 +31,18 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" plugin setup
+" theme 
 colorscheme gruvbox
 set background=dark
 
 " nerdtree
 "let NERDTreeMinimalUI = 1
 let g:NERDTreeNodeDelimiter = "\u00a0"
-
+map <C-n> :NERDTreeToggle<CR>
 
 " settings
 
+syntax on
 set tabstop=4 " visual spaces per TAB
 set softtabstop=4 " number of spaces in tab when edit
 set number " show line numbers
