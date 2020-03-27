@@ -27,6 +27,8 @@ unset env
 
 # add vagrant binaries to path
 export PATH=$PATH:/C/HashiCorp/Vagrant/bin
+# add minishift to path
+export PATH=$PATH:/C/tools/minishift-1.34.2-windows-amd64
 
 {%@@ endif @@%}
 
