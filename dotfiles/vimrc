@@ -13,6 +13,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'morhetz/gruvbox'
+Plugin 'saltstack/salt-vim'
 
 
 
@@ -45,6 +46,8 @@ map <C-n> :NERDTreeToggle<CR>
 syntax on
 set tabstop=4 " visual spaces per TAB
 set softtabstop=4 " number of spaces in tab when edit
+set shiftwidth=4 
+set expandtab
 set number " show line numbers
 set wildmenu " visual autocomplete for command menu
 set showmatch " highlight matching [{(
