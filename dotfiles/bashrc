@@ -6,6 +6,8 @@ export PATH=$PATH:/C/HashiCorp/Vagrant/bin
 # add minishift to path
 export PATH=$PATH:/C/tools/minishift-1.34.2-windows-amd64
 export PATH=$PATH:/C/tools/openshift
+# add terraform to path
+export PATH=$PATH:/C/tools/terraform
 
 {%@@ endif @@%}
 
