@@ -25,6 +25,8 @@ export PATH
 {%@@ endif @@%}
 
 alias gst='git status '
+alias fuck='sudo'
+alias please='sudo'
 
 # add alias for dotdrop
 alias dotdrop='~/dotfiles/dotdrop.sh --cfg=~/dotfiles/config.yaml'
